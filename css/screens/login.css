@@ -16,40 +16,41 @@
   opacity: 0.7;
 }
 
-#login-form {
+.login__form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
-#login-form input {
+.login__input,
+.login__submit {
   padding: 15px 0px;
   border: none;
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-#login-form input:not([type="submit"]) {
+.login__input {
   transition: border-color 0.3s ease-in-out;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-#login-form input::placeholder {
+.login__input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#login-form input:focus {
+.login__input:focus {
   border-color: var(--yellow);
 }
 
-#login-form input[type="submit"] {
+.login__submit {
   background-color: var(--yellow);
-  cursor: not-allowed;
   padding: 20px 0px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-#login-form a {
+.login__form a {
   text-align: center;
   text-decoration: none;
   color: inherit;

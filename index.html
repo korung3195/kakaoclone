@@ -34,23 +34,36 @@
           If you hava a kakao Account, log in with your email or phone number.
         </p1>
       </header>
-      <form action="friends.html" method="get" id="login-form">
+      <form class="login__form" action="friends.html" method="get">
         <input
           name="username"
           type="text"
           placeholder="Email or phone number"
           required
+          class="login__input"
         />
         <input
           name="password"
           type="password"
           placeholder="Password"
           required
+          class="login__input"
         />
-        <input type="submit" value="Log In" />
+        <input type="submit" value="Log In" class="login__submit" />
         <a href="#">Find Kakao Account or Password</a>
       </form>
     </div>
+
+    <div class="illegal illegal--nomobile">
+      <i class="far fa-sad-tear fa-6x"></i>
+      <span>Your Screen is too big</span>
+    </div>
+
+    <div class="illegal illegal--nolandscape">
+      <i class="fas fa-sync fa-6x"></i>
+      <span>Please rotate your phone</span>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
