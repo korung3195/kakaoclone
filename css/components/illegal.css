@@ -22,6 +22,7 @@
   }
 }
 
+/*It has several exception*/
 @media screen and (orientation: portrait) {
   .illegal--nolandscape {
     display: none;
