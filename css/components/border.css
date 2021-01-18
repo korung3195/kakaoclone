@@ -1,0 +1,7 @@
+.border {
+  border-bottom: 0.5px var(--gray) solid;
+  margin-bottom: 20px;
+}
+.border--broad {
+  margin: 15px 0px;
+}

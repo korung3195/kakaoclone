@@ -1,0 +1,29 @@
+.illegal {
+  position: absolute;
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+}
+
+.illegal span {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .illegal--nomobile {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .illegal--nolandscape {
+    display: none;
+  }
+}
